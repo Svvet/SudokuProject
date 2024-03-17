@@ -1,0 +1,37 @@
+.sudoku-cell{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sudoku-cell-value{
+        border: 0;
+        width: 10px;
+    }
+}
+
+.sudoku-cell-border-right{
+    border-right: 3px solid black;
+}
+
+.sudoku-cell-border-bottom{
+    border-bottom: 3px solid black;
+}
+
+.sudoku-cell-outer-border-top{
+    border-top: 4px solid black;
+}
+
+.sudoku-cell-outer-border-bottom{
+    border-bottom: 4px solid black;
+}
+
+.sudoku-cell-outer-border-left{
+    border-left: 4px solid black;
+}
+
+.sudoku-cell-outer-border-right{
+    border-right: 4px solid black;
+}
