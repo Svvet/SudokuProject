@@ -1,4 +1,6 @@
 <div class="sudoku-board-row">
-    <cell *ngFor="let value of values; index as i" [cellValue]="value" [col]="i" [row]="row"></cell>
+    <!-- <cell *ngFor="let value of values; index as i" [initialValue]="value" [col]="i" [row]="row"></cell> -->
+    <cell *ngFor="let value of initialValues; index as i" [initialValue]="value" [col]="i" [row]="row" (cellValueChange)="updateValues($event)"></cell>
+    <!-- <button (click)="onCellChange()"></button> -->
 </div>
 

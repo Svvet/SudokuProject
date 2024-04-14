@@ -1,37 +1,42 @@
-.sudoku-cell{
-    height: 30px;
-    width: 30px;
+.sudoku-cell {
+    height: 50px;
+    width: 50px;
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .sudoku-cell-value{
+    .sudoku-cell-value {
         border: 0;
-        width: 10px;
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.5rem;
     }
 }
 
-.sudoku-cell-border-right{
+.sudoku-cell-border-right {
     border-right: 3px solid black;
 }
 
-.sudoku-cell-border-bottom{
+.sudoku-cell-border-bottom {
     border-bottom: 3px solid black;
 }
 
-.sudoku-cell-outer-border-top{
+.sudoku-cell-outer-border-top {
     border-top: 4px solid black;
 }
 
-.sudoku-cell-outer-border-bottom{
+.sudoku-cell-outer-border-bottom {
     border-bottom: 4px solid black;
 }
 
-.sudoku-cell-outer-border-left{
+.sudoku-cell-outer-border-left {
     border-left: 4px solid black;
 }
 
-.sudoku-cell-outer-border-right{
+.sudoku-cell-outer-border-right {
     border-right: 4px solid black;
 }

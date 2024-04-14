@@ -1,3 +1,4 @@
 <div [class]="cellClass">
-    <input class="sudoku-cell-value" [(ngModel)]="cellValue">
+    <input class="sudoku-cell-value" [(ngModel)]="inputValue" (ngModelChange)="updateCellValue($event)">
+    <!-- <input class="sudoku-cell-value" [(ngModel)]="cellValue" (ngModelChange)="updateCellValue($event)"> -->
 </div>
